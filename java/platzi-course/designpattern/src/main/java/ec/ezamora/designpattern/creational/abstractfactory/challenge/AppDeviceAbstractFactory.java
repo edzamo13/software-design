@@ -13,7 +13,6 @@ public class AppDeviceAbstractFactory {
     cpu.series("xxx-001");
     display.resolution("100x5660");
     memory.capacityGb(100);
-
   }
 
   private static DeviceAbstractFactory createAbstractFactory(String type) {
