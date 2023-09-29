@@ -131,7 +131,7 @@ function appCarFactory(factory: CarAbstractFactory) {
   }
 
   const mastodon: MastodonCar = factory.createMastodon();
-  const rhino: RhinoCar = factory.createRhino();
+  const rhino: RhinoCar = factory.createRhino(); 
 
   mastodon.useGPS();
   rhino.useGPS();
