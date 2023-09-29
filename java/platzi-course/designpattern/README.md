@@ -33,10 +33,16 @@
 ## Pros and Contras
 
 * Pros
-  * Only one class instance
-  * Only a point access global
-  * Instance begin when need first time
+  * Avoid a coupling height between the creators element and the products
+  * The Create of product happen in only point
+  * Add new product don't require ,modification the code exit,extends it
 * Contras
-  * Single responsibility only is Vulnerable
-  * Complexity Raise on enviroment multipl threads ejecution
-  * Complexity with create unity test
+  * Many Code Generic, new product, new Factory
+  * Many Abstraction
+
+## When to use?
+
+* Use it when do you don't how many product different there will be
+* When do you need uncoupling the use of the product with its creation
+* Extend the functionality of library or framework
+  * example: UI library, Framework web

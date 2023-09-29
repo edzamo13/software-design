@@ -3,17 +3,22 @@ package ec.ezamora.designpattern.creational.factory;
 public class AppFactory {
 
   public static void main(String[] args) {
-    createFactories("mastodon").showCost();
-    createFactories("xxx").showCost();
+    createFactory(createFactories("mastodon"));
+    createFactory(createFactories("xxx"));
   }
 
-  private static BaseCar createFactories(String type) {
-    if (type.equals("mastodon")) {
-      return new MastodonCar();
-    } else {
-      return new RhinoCar();
+  private static void createFactory(CarFactory factory) {
+    BaseCar baseCar = factory.makeCar();
+    baseCar.showCost();
 
+  }
+
+
+  private static CarFactory createFactories(String type) {
+    if (type.equals("mastodon")) {
+      return new MastodonFactory();
+    } else {
+      return new RhinoFactory();
     }
   }
-
 }
