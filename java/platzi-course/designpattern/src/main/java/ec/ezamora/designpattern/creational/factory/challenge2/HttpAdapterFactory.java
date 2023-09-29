@@ -1,4 +1,4 @@
-package ec.ezamora.designpattern.creational.challenge2;
+package ec.ezamora.designpattern.creational.factory.challenge2;
 
  interface HttpAdapterFactory {
 

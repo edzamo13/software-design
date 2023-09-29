@@ -1,4 +1,4 @@
-package ec.ezamora.designpattern.creational.challenge;
+package ec.ezamora.designpattern.creational.factory.challenge;
 
 
 public class RestHttpAdapter implements HttpAdapter {

@@ -46,3 +46,29 @@
 * When do you need uncoupling the use of the product with its creation
 * Extend the functionality of library or framework
   * example: UI library, Framework web
+
+## Abstract Factory
+
+* Declare base product class/interface, fo each product in the catalog
+* Implement concretes product sub clases that inherits/implements the base product class/interace, for each of the family types.
+* Declare factory class/interface that declare creation methods for each base product.
+* Create concrete factories that implemnets all of the defined creation methods in the abstract factory
+* <img width="1019" alt="Screenshot 2023-09-29 at 16 10 05" src="https://github.com/edzamo13/design-pattern/assets/16899164/e602743e-dc0a-4e19-8cd3-04be342fa691">
+
+## Pros and Contras
+
+* Pros
+  * Avoid a coupling height between the creators element and the products
+  * The products return for the factories are interchangeable
+  * The Create of product happen in only point
+  * Add new product don't require ,modification the code exit,extends it
+* Contras
+  * Many Code Generic, new product, new Factory, new version
+  * If the base products add some element, all the product concrete must implement the change
+  * Depend on that exist families of products
+
+## When to use?
+
+* Use when do you have variants of the product base that share same and can be join in families
+* When do we want that the products new will be integration with the existen
+  * example: Implementation of a design system
