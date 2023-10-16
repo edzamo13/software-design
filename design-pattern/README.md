@@ -1,4 +1,3 @@
-
 # Design Pattern
 
 ## Singleton
@@ -66,11 +65,37 @@
 * Contras
   * Many Code Generic, new product, new Factory, new version
   * If the base products add some element, all the product concrete must implement the change
-  * Depend of that exist families of products
+  * Depend on that exist families of products
 
 ## When to use?
 
-* Use it when do you don't how many product different there will be
-* When do you need uncoupling the use of the product with its creation
-* Extend the functionality of library or framework
-  * example: UI library, Framework web
+* Use when do you have variants of the product base that share same and can be join in families
+* When do we want that the products new will be integration with the existen
+  * example: Implementation of a design system
+
+## Builder
+
+* Declare Builder base class/interface whi will define the general steps for build products, each build must implements these steps
+* Implements concrete builders sub classes that inherits/implements base builder class/interface that offer different versions of the build steps
+* Implement Product classes, these ones could not belong to the same base class/interface.
+* Implement directosr class this one will know the build process for each product, so we can create specific configurations for the products.
+* <img width="735" alt="Screenshot 2023-10-02 at 11 34 53" src="https://github.com/edzamo13/design-pattern/assets/16899164/9e1d0a41-4631-40e5-9393-0ac1a93e7036"> 
+    <img width="559" alt="Screenshot 2023-10-02 at 11 36 48" src="https://github.com/edzamo13/design-pattern/assets/16899164/a6645c8d-eccf-48ba-bb0b-d04d6feb62a0">
+
+## Pros and Contras
+
+* Pros
+  * We can build object step by step, defer some of these or use recursion
+  * Can reuse the same build process for build diferente product representative
+  * Isolate the configuration of construction in a only place
+  * New configurations don't require modify the existen
+* Contras
+  * Many Code Generic, new product, new builder
+  * Mutation of object product.
+
+## When to use?
+
+* Use when you want avoid have a contructor telescopic
+* When do you want that exist diferente representations of same product. example Car, vehicle, manual the process build is same and detallis change
+* When do want have control about the proces of object creation
+  * example: Build queries for data base
