@@ -1,4 +1,4 @@
-package ec.gangOfFour.creational.builder.pluralsight;
+package ec.gangoffour.creational.builder.pluralsight;
 
 public class LunchOrder {
 

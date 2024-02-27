@@ -1,4 +1,4 @@
-package ec.gangOfFour.creational.singleton.pluralsight;
+package ec.gangoffour.creational.singleton.pluralsight;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

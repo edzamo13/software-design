@@ -1,4 +1,4 @@
-package ec.gangOfFour.creational.builder.openwebinar.example;
+package ec.gangoffour.creational.builder.openwebinar.example;
 
 public interface Builder {
 
