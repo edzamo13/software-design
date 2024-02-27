@@ -1,0 +1,33 @@
+
+t
+java:S2293g"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ç–¿¶ÿÿÿÿÿ
+u
+java:S2293…"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÁÞ¨Æüÿÿÿÿ
+a
+java:S1192B"KDefine a constant instead of duplicating this literal "2100080794" 4 times.(Õ½ë
+\
+java:S11923"GDefine a constant instead of duplicating this literal "AHORRO" 3 times.(Æ»#
+a
+java:S11924"KDefine a constant instead of duplicating this literal "Dollar USD" 3 times.( ÙŒú
+^
+java:S1192;"HDefine a constant instead of duplicating this literal "PENDING" 4 times.(ºâ„Ÿ
+?
+java:S5411‚"(Use a primitive boolean expression here.(«¸þ•
+f
+java:S3655l"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(æØ¨˜
+g
+java:S3655Œ"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ÜûöÁ
+=
+java:S1125f"'Remove the unnecessary boolean literal.(«¸þ•
+>
+java:S1125‚"'Remove the unnecessary boolean literal.(«¸þ•
+C
+java:S1602‡",Remove useless curly braces around statement(øÍØÌ
+E
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òþÿÿÿÿ
+K
+java:S1128"0Remove this unused import 'java.util.Map.Entry'.(±þê¾úÿÿÿÿ
+S
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ
+X
+java:S1144{"=Remove this unused private "validationPendingImprove" method.(ËœÂ¨øÿÿÿÿ

@@ -1,0 +1,12 @@
+
+W
+java:S2184"BCast one of the operands of this addition operation to a "double".(‰˜=
+x	java:S116"dRename this field "RETIREMENT_TAX_PERCENTAGE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß€
+z	java:S116"`Rename this field "INCOME_TAX_PERCENTAGE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†Ïºìÿÿÿÿÿ
+t	java:S116	"`Rename this field "BASE_HEALTH_INSURANCE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷î³9
+6
+java:S1170"!Make this final field static too.(ß€
+<
+java:S1170"!Make this final field static too.(†Ïºìÿÿÿÿÿ
+6
+java:S1170	"!Make this final field static too.(÷î³9

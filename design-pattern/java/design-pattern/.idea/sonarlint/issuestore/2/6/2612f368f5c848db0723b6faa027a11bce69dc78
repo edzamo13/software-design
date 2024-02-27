@@ -1,0 +1,19 @@
+
+W
+java:S4973"<Strings and Boxed types should be compared using "equals()".(·´†Ùùÿÿÿÿ
+P
+java:S1854":Remove this useless assignment to local variable "amount".(´ÛýŽ
+T
+java:S1854">Remove this useless assignment to local variable "endDateStr".(„¥›å
+V
+java:S1854"@Remove this useless assignment to local variable "startDateStr".(äð ¶
+G
+java:S1481"1Remove this unused "startDateStr" local variable.(äð ¶
+E
+java:S1481"/Remove this unused "endDateStr" local variable.(„¥›å
+A
+java:S1481"+Remove this unused "amount" local variable.(´ÛýŽ
+\
+java:S1126"AReplace this if-then-else statement by a single return statement.(·´†Ùùÿÿÿÿ
+A
+java:S1068"&Remove this unused "df" private field.(ßòÔ±ûÿÿÿÿ
