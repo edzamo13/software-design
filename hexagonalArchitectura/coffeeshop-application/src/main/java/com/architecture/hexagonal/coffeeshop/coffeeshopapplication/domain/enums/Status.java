@@ -1,4 +1,4 @@
-package com.softwaredesign.architecture.hexagonal.coffeeshop.domain;
+package com.architecture.hexagonal.coffeeshop.coffeeshopapplication.domain.enums;
 
 public enum Status {
   PAYMENT_EXPECTED,

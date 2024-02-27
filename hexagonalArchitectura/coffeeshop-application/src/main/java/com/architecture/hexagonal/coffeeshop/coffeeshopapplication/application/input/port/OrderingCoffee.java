@@ -1,4 +1,4 @@
-package com.architecture.hexagonal.coffeeshop.coffeeshopapplication.application.input;
+package com.architecture.hexagonal.coffeeshop.coffeeshopapplication.application.input.port;
 
 import com.architecture.hexagonal.coffeeshop.coffeeshopapplication.domain.CreditCard;
 import com.architecture.hexagonal.coffeeshop.coffeeshopapplication.domain.Order;

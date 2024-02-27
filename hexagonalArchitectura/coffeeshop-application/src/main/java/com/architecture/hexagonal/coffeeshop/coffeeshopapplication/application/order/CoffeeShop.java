@@ -1,6 +1,6 @@
 package com.architecture.hexagonal.coffeeshop.coffeeshopapplication.application.order;
 
-import com.architecture.hexagonal.coffeeshop.coffeeshopapplication.application.input.OrderingCoffee;
+import com.architecture.hexagonal.coffeeshop.coffeeshopapplication.application.input.port.OrderingCoffee;
 import com.architecture.hexagonal.coffeeshop.coffeeshopapplication.application.output.port.Orders;
 import com.architecture.hexagonal.coffeeshop.coffeeshopapplication.application.output.port.Payments;
 import com.architecture.hexagonal.coffeeshop.coffeeshopapplication.domain.CreditCard;
@@ -9,7 +9,9 @@ import com.architecture.hexagonal.coffeeshop.coffeeshopapplication.domain.Paymen
 import com.architecture.hexagonal.coffeeshop.coffeeshopapplication.domain.Receipt;
 import java.time.LocalDate;
 import java.util.UUID;
+import lombok.RequiredArgsConstructor;
 
+@RequiredArgsConstructor
 public class CoffeeShop implements OrderingCoffee {
 
   private final Orders orders;
