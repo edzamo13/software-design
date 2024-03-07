@@ -1,0 +1,9 @@
+
+~
+java:S1488"\Immediately return this expression instead of assigning it to the temporary variable "body".(½­×úÿÿÿÿ8Å€®ˆá1
+\
+java:S1118":Add a private constructor to hide the implicit public one.( ¶äøÿÿÿÿ8Ë€®ˆá1
+^
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(Ø¹Ùà8Ï€®ˆá1
+[
+java:S4719"9Replace charset name argument with StandardCharsets.UTF_8(½­×úÿÿÿÿ8Ñ€®ˆá1

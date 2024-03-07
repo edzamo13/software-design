@@ -1,0 +1,23 @@
+
+]
+java:S1854"@Remove this useless assignment to local variable "headerRecord".(ç©ÄÊ8¡‰ö…á1
+\
+java:S1854":Remove this useless assignment to local variable "record".(´ÌüÙüÿÿÿÿ8—Ò‘†á1
+ß
+java:S1130"¼Remove the declaration of thrown exception 'ec.software.engineer.designpattern.behavioral.strategy.validation.exception.ValidationFileException', as it cannot be thrown from method's body.(óéî­ÿÿÿÿÿ8Š™³†á1
+
+java:S1130"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(óéî­ÿÿÿÿÿ8Š™³†á1
+U
+java:S6213":Rename this variable to not match a restricted identifier.(´ÌüÙüÿÿÿÿ
+M
+java:S1481"+Remove this unused "record" local variable.(´ÌüÙüÿÿÿÿ8˜Ò‘†á1
+N
+java:S1481"1Remove this unused "headerRecord" local variable.(ç©ÄÊ8¯æö…á1
+T
+java:S1481"7Remove this unused "validationResultTo" local variable.(›Í8šÒ‘†á1
+†
+java:S1128"iRemove this unused import 'ec.software.engineer.designpattern.behavioral.strategy.validation.dto.Person'.(Ğ¦áÜ8™³†á1
+’
+java:S1128"pRemove this unused import 'ec.software.engineer.designpattern.behavioral.strategy.validation.util.DownloadFile'.(åÅ•ğüÿÿÿÿ8™³†á1
+•
+java:S1128	"sRemove this unused import 'ec.software.engineer.designpattern.behavioral.strategy.validation.util.DownloadFileTwo'.(Ù„»¥üÿÿÿÿ8‘™³†á1

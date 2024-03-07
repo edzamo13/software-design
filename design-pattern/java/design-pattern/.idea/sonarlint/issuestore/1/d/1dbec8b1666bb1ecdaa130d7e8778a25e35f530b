@@ -1,0 +1,19 @@
+
+e
+java:S1192"HDefine a constant instead of duplicating this literal "Chicago" 4 times.(³ç•å8±©½Îá1
+d
+java:S1192"GDefine a constant instead of duplicating this literal "Dallas" 4 times.(³ç•å8±©½Îá1
+÷
+java:S1598"ÙThis file "Main.java" should be located in "ec/software/engineer/architecture/hexagonal/example/external/console" directory, not in "/Users/ezamora/Documents/Personal/Curso/academias/softwareDesign/softwareDesign/design-pattern/java/design-pattern/src/main/java/ec/software/engineer/architecture/hexagonal/example/domain-model/external/console".(¸–8€ğ›Ïá1
+C
+java:S2111!"!Use "BigDecimal.valueOf" instead.(ªÇ×Ùıÿÿÿÿ8Ê©½Îá1
+C
+java:S2111""!Use "BigDecimal.valueOf" instead.(ÛÊ”ûÿÿÿÿ8Ë©½Îá1
+C
+java:S2111#"!Use "BigDecimal.valueOf" instead.(å¼ØÒøÿÿÿÿ8Ì©½Îá1
+C
+java:S2111$"!Use "BigDecimal.valueOf" instead.(“„¿Šøÿÿÿÿ8Ì©½Îá1
+C
+java:S2111%"!Use "BigDecimal.valueOf" instead.(“¼èúÿÿÿÿ8Ì©½Îá1
+>
+java:S2111&"!Use "BigDecimal.valueOf" instead.(¥Ùü“8Ì©½Îá1

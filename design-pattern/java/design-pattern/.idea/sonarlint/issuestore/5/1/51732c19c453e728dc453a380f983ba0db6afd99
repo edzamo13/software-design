@@ -1,0 +1,17 @@
+
+c
+java:S1192"HDefine a constant instead of duplicating this literal "Chicago" 4 times.(¿â—¢øÿÿÿÿ
+b
+java:S1192"GDefine a constant instead of duplicating this literal "Dallas" 4 times.(¿â—¢øÿÿÿÿ
+<
+java:S2111 "!Use "BigDecimal.valueOf" instead.(Ûœç»ùÿÿÿÿ
+<
+java:S2111!"!Use "BigDecimal.valueOf" instead.(·ƒ‰Êþÿÿÿÿ
+<
+java:S2111""!Use "BigDecimal.valueOf" instead.(¸Ë¶ùÿÿÿÿ
+7
+java:S2111#"!Use "BigDecimal.valueOf" instead.(”éåÅ
+7
+java:S2111$"!Use "BigDecimal.valueOf" instead.(Úã¼Ú
+<
+java:S2111%"!Use "BigDecimal.valueOf" instead.(ý—€Ôûÿÿÿÿ
