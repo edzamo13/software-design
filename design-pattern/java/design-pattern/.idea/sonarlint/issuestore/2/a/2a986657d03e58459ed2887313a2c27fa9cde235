@@ -1,2 +1,4 @@
 
 g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8²ÜÀÎá1
+l
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ùåø8±–ğâ1

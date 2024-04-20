@@ -1,12 +1,9 @@
 package ec.software.engineer.designpattern.behavioral.strategy.validation;
 
-import ec.software.engineer.designpattern.behavioral.strategy.validation.dto.Person;
+import ec.software.engineer.designpattern.behavioral.strategy.validation.dto.ValidationResult;
 import ec.software.engineer.designpattern.behavioral.strategy.validation.exception.ValidationFileException;
-import ec.software.engineer.designpattern.behavioral.strategy.validation.impl.ValidationFileRecord;
-import ec.software.engineer.designpattern.behavioral.strategy.validation.impl.ValidationHeaderRecord;
-import ec.software.engineer.designpattern.behavioral.strategy.validation.result.ValidationResultTo;
-import ec.software.engineer.designpattern.behavioral.strategy.validation.util.DownloadFile;
-import ec.software.engineer.designpattern.behavioral.strategy.validation.util.DownloadFileTwo;
+import ec.software.engineer.designpattern.behavioral.strategy.validation.impl.FileOnlyTabs;
+import ec.software.engineer.designpattern.behavioral.strategy.validation.impl.FileHeaders;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -16,10 +13,10 @@ public class ValidationServiceMain {
   public static void main(String[] args) throws ValidationFileException, IOException {
 
    // DownloadFile.getFileBody("");
-    ValidationFileRecord record = new ValidationFileRecord();
-    ValidationHeaderRecord headerRecord = new ValidationHeaderRecord();
-    List<ValidationResultTo> resultList = new ArrayList<>();
-    ValidationResultTo validationResultTo;
+    FileOnlyTabs record = new FileOnlyTabs();
+    FileHeaders headerRecord = new FileHeaders();
+    List<ValidationResult> resultList = new ArrayList<>();
+    ValidationResult validationResultTo;
 
     //validationResultTo = record.validate(person);
    // resultList.add(validationResultTo);

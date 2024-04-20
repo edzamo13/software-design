@@ -1,22 +1,0 @@
-
-^
-java:S1854"<Remove this useless assignment to local variable "fileBody".(†ƒü§şÿÿÿÿ8œ³–‰á1
-ß
-java:S1130"¼Remove the declaration of thrown exception 'ec.software.engineer.designpattern.behavioral.strategy.validation.exception.ValidationFileException', as it cannot be thrown from method's body.(óéî­ÿÿÿÿÿ8ÍÇ‰á1
-O
-java:S1481"-Remove this unused "fileBody" local variable.(†ƒü§şÿÿÿÿ8³–‰á1
-›
-java:S1128"yRemove this unused import 'ec.software.engineer.designpattern.behavioral.strategy.validation.dto.ValidationStandardFile'.(Û“Íşÿÿÿÿ8Ú‰á1
-P
-java:S1128"3Remove this unused import 'java.io.BufferedReader'.(€é²Å8Ú‰á1
-F
-java:S1128")Remove this unused import 'java.io.File'.(†Ğ¥Å8Ú‰á1
-Q
-java:S1128"/Remove this unused import 'java.io.FileReader'.(Â¡¢äşÿÿÿÿ8Ú‰á1
-M
-java:S1128
-"0Remove this unused import 'java.nio.file.Files'.(‚ƒü8Ú‰á1
-L
-java:S1128"/Remove this unused import 'java.nio.file.Path'.(×²êÂ8Ú‰á1
-M
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Ú‰á1

@@ -1,11 +1,11 @@
 package ec.software.engineer.designpattern.behavioral.strategy.validation;
 
 
-import ec.software.engineer.designpattern.behavioral.strategy.validation.exception.ValidationFileException;
+import java.io.IOException;
 
 public interface ValidationFile<T, R> {
 
-  R validate(T objectToValidate) throws ValidationFileException;
+  R validate(T objectToValidate) throws IOException;
 
 
 }

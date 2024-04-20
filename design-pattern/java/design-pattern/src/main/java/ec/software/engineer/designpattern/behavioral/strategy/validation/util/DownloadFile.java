@@ -11,9 +11,9 @@ import java.util.List;
 
 public class DownloadFile {
 
-  public static String getFileBody() throws IOException {
+  public static String getFileBody(String path) throws IOException {
    // File csvFile = new File("/Users/ezamora/Downloads/cvsExampleTabFull.txt");
-    File csvFile = new File("/Users/ezamora/Downloads/cvsExampleTabFull_bad.txt");
+    File csvFile = new File(path);
     byte[] bytes = Files.readAllBytes(csvFile.toPath());
     String body = new String(bytes, "UTF-8");
     return body;

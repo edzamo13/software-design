@@ -1,23 +1,22 @@
 
-]
-java:S1854"@Remove this useless assignment to local variable "headerRecord".(ç©ÄÊ8¡‰ö…á1
-\
-java:S1854":Remove this useless assignment to local variable "record".(´ÌüÙüÿÿÿÿ8—Ò‘†á1
-ß
-java:S1130"¼Remove the declaration of thrown exception 'ec.software.engineer.designpattern.behavioral.strategy.validation.exception.ValidationFileException', as it cannot be thrown from method's body.(óéî­ÿÿÿÿÿ8Š™³†á1
+ƒ
+java:S1854"@Remove this useless assignment to local variable "headerRecord".(‡¦•Õ8¡‰ö…á1J$a17e2d36-4d3b-4b36-849a-135a79353fee
+}
+java:S1854":Remove this useless assignment to local variable "record".(¬£¹¨8—Ò‘†á1J$cc7a5873-0cf5-4438-8118-da9bdd0ffc35
+…
+java:S1130"¼Remove the declaration of thrown exception 'ec.software.engineer.designpattern.behavioral.strategy.validation.exception.ValidationFileException', as it cannot be thrown from method's body.(óéî­ÿÿÿÿÿ8¹¡€îå1J$88fd2a24-7627-4b18-95ae-37cdea9f362c
 
-java:S1130"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(óéî­ÿÿÿÿÿ8Š™³†á1
-U
-java:S6213":Rename this variable to not match a restricted identifier.(´ÌüÙüÿÿÿÿ
-M
-java:S1481"+Remove this unused "record" local variable.(´ÌüÙüÿÿÿÿ8˜Ò‘†á1
-N
-java:S1481"1Remove this unused "headerRecord" local variable.(ç©ÄÊ8¯æö…á1
-T
-java:S1481"7Remove this unused "validationResultTo" local variable.(›Í8šÒ‘†á1
-†
-java:S1128"iRemove this unused import 'ec.software.engineer.designpattern.behavioral.strategy.validation.dto.Person'.(Ğ¦áÜ8™³†á1
-’
-java:S1128"pRemove this unused import 'ec.software.engineer.designpattern.behavioral.strategy.validation.util.DownloadFile'.(åÅ•ğüÿÿÿÿ8™³†á1
-•
-java:S1128	"sRemove this unused import 'ec.software.engineer.designpattern.behavioral.strategy.validation.util.DownloadFileTwo'.(Ù„»¥üÿÿÿÿ8‘™³†á1
+java:S1130"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(óéî­ÿÿÿÿÿ8Úí¥±ç1
+v
+java:S6213":Rename this variable to not match a restricted identifier.(¬£¹¨J$da97736c-c691-4e3a-9926-7481b0318d1a
+~	java:S125"<This block of commented-out lines of code should be removed.(°ã¢Ã8Ö÷”éå1J$c29b794f-0827-4423-9915-dfcadcf9dd62
+n
+java:S1481"+Remove this unused "record" local variable.(¬£¹¨8˜Ò‘†á1J$8d991b86-6826-46b9-8d17-c1dde64204a2
+t
+java:S1481"1Remove this unused "headerRecord" local variable.(‡¦•Õ8¯æö…á1J$2c89bdbe-7aa0-4d4e-88d5-b1ca18a0a965
+z
+java:S1481"7Remove this unused "validationResultTo" local variable.(­¤ªƒ8šÒ‘†á1J$2e70c0e0-dadd-4b28-b441-e9071e111a2d
+r	java:S106"+Replace this use of System.out by a logger.(ğ“šìûÿÿÿÿ8Ú÷”éå1J$e86f5564-9a06-4b07-9bc6-82943c95ff0b
+}	java:S125"<This block of commented-out lines of code should be removed.(ì‘K8Û÷”éå1J$70e81d57-b804-4a99-9271-4040cafb4fa9
+~	java:S125"<This block of commented-out lines of code should be removed.(—ÅÌÉ8Û÷”éå1J$89e8fddc-d09b-4a38-8f90-ce224a192eb6
+~	java:S125"<This block of commented-out lines of code should be removed.(ìÃíÀ8Û÷”éå1J$3297008d-dbd6-4539-bbbf-5175c4c4a89d

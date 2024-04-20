@@ -1,9 +1,8 @@
 
-~
-java:S1488"\Immediately return this expression instead of assigning it to the temporary variable "body".(½­×úÿÿÿÿ8Å€®ˆá1
-\
-java:S1118":Add a private constructor to hide the implicit public one.( ¶äøÿÿÿÿ8Ë€®ˆá1
-^
-java:S1075"ARefactor your code to get this URI from a customizable parameter.(Ø¹Ùà8Ï€®ˆá1
-[
-java:S4719"9Replace charset name argument with StandardCharsets.UTF_8(½­×úÿÿÿÿ8Ñ€®ˆá1
+¤
+java:S1488"\Immediately return this expression instead of assigning it to the temporary variable "body".(½­×úÿÿÿÿ8Å€®ˆá1J$b11b0064-00ed-49ab-aa84-9b9f285b03c2
+‚
+java:S1118":Add a private constructor to hide the implicit public one.( ¶äøÿÿÿÿ8Ë€®ˆá1J$572be76d-755f-4f5e-a6fc-42d69d6c3ccb
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(ï’ãùşÿÿÿÿ8”ğ•Úá1J$b61e36cf-4708-49c5-b45a-7a381fd9cf68
+
+java:S4719"9Replace charset name argument with StandardCharsets.UTF_8(½­×úÿÿÿÿ8Ñ€®ˆá1J$ed3fdd98-7bd0-44aa-b973-e8b5d8d4d9c5

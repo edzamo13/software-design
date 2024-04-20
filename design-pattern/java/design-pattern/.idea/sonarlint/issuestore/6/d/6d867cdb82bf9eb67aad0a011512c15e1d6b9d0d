@@ -1,6 +1,7 @@
 
-{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ê”Æ‘øÿÿÿÿ8ô“š‡á1
-T
-java:S6126"2Replace this String concatenation with Text block.(ê”Æ‘øÿÿÿÿ8»÷¥‡á1
-s
-java:S1128"QRemove this unused import 'ec.software.engineer.solid.principle.amigoscode.Main'.(©éæðþÿÿÿÿ8íÒœ‡á1
+¡	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ê”Æ‘øÿÿÿÿ8ô“š‡á1J$3f0136da-10a3-42f0-a208-953c3cf74996
+z
+java:S6126"2Replace this String concatenation with Text block.(ê”Æ‘øÿÿÿÿ8»÷¥‡á1J$ba149cbf-66f8-45d9-bebf-a7c500157a6c
+r	java:S106""+Replace this use of System.out by a logger.(¹¦…‡úÿÿÿÿ8¶í•Úá1J$3e3d9a9b-400d-4873-8f60-21ee3f05e247
+™
+java:S1128"QRemove this unused import 'ec.software.engineer.solid.principle.amigoscode.Main'.(©éæðþÿÿÿÿ8íÒœ‡á1J$2c68445f-3edf-4ef1-88a6-2278a02705fd
