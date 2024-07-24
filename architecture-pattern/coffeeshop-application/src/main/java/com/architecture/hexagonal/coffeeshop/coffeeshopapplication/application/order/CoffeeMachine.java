@@ -2,9 +2,10 @@ package com.architecture.hexagonal.coffeeshop.coffeeshopapplication.application.
 
 import com.architecture.hexagonal.coffeeshop.coffeeshopapplication.application.input.port.PreparingCoffee;
 import com.architecture.hexagonal.coffeeshop.coffeeshopapplication.application.output.port.Orders;
-import com.architecture.hexagonal.coffeeshop.coffeeshopapplication.domain.Order;
+import com.architecture.hexagonal.coffeeshop.coffeeshopapplication.domain.order.Order;
 import java.util.UUID;
 import lombok.RequiredArgsConstructor;
+import reactor.core.publisher.Mono;
 
 @RequiredArgsConstructor
 public class CoffeeMachine implements PreparingCoffee {
@@ -12,17 +13,13 @@ public class CoffeeMachine implements PreparingCoffee {
   private final Orders orders;
 
 
-
-
   @Override
-  public Order startPreparingOrder(UUID orderId) {
-    var order = orders.findOrderById(orderId);
-
-    return orders.save(order.markBeingPrepared());
+  public Mono<Order> startPreparingOrder(UUID orderId) {
+    return null;
   }
 
   @Override
-  public Order finishPreparingOrder(UUID orderId) {
+  public Mono<Order> finishPreparingOrder(UUID orderId) {
     return null;
   }
 }

@@ -3,50 +3,49 @@ package com.architecture.hexagonal.coffeeshop.coffeeshopapplication.application.
 import com.architecture.hexagonal.coffeeshop.coffeeshopapplication.application.input.port.OrderingCoffee;
 import com.architecture.hexagonal.coffeeshop.coffeeshopapplication.application.output.port.Orders;
 import com.architecture.hexagonal.coffeeshop.coffeeshopapplication.application.output.port.Payments;
-import com.architecture.hexagonal.coffeeshop.coffeeshopapplication.domain.CreditCard;
-import com.architecture.hexagonal.coffeeshop.coffeeshopapplication.domain.Order;
-import com.architecture.hexagonal.coffeeshop.coffeeshopapplication.domain.Payment;
-import com.architecture.hexagonal.coffeeshop.coffeeshopapplication.domain.Receipt;
-import java.time.LocalDate;
+import com.architecture.hexagonal.coffeeshop.coffeeshopapplication.domain.payment.CreditCard;
+import com.architecture.hexagonal.coffeeshop.coffeeshopapplication.domain.order.Order;
+import com.architecture.hexagonal.coffeeshop.coffeeshopapplication.domain.payment.Payment;
+import com.architecture.hexagonal.coffeeshop.coffeeshopapplication.domain.payment.Receipt;
 import java.util.UUID;
 import lombok.RequiredArgsConstructor;
+import reactor.core.publisher.Mono;
 
 @RequiredArgsConstructor
 public class CoffeeShop implements OrderingCoffee {
 
   private final Orders orders;
   private final Payments payments;
+
   @Override
-  public Order placeOrder(Order order) {
+  public Mono<Order> placeOrder(Order order) {
     return null;
   }
 
   @Override
-  public Order updateOrder(UUID orderId, Order order) {
+  public Mono<Order> updateOrder(UUID orderId, Order order) {
     return null;
   }
 
   @Override
-  public void cancelOrder(UUID orderId) {
-
+  public Mono<Void> cancelOrder(UUID orderId) {
+    return Mono.empty();
   }
 
   @Override
-  public Payment payOrder(UUID orderId, CreditCard creditCard) {
-    var order = orders.findOrderById(orderId);
-
-    orders.save(order.markPaid());
-
-    return payments.save(new Payment(orderId, creditCard, LocalDate.now()));
-  }
-
-  @Override
-  public Receipt readReceipt(UUID orderId) {
+  public Mono<Payment> payOrder(UUID orderId, CreditCard creditCard) {
     return null;
   }
 
   @Override
-  public Order takeOrder(UUID orderId) {
+  public Mono<Receipt> readReceipt(UUID orderId) {
+    return null;
+  }
+
+  @Override
+  public Mono<Order> takeOrder(UUID orderId) {
     return null;
   }
 }
+
+

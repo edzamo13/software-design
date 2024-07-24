@@ -8,6 +8,8 @@ import com.architecture.hexagonal.coffeeshop.coffeeshopapplication.domain.enums.
 import com.architecture.hexagonal.coffeeshop.coffeeshopapplication.domain.enums.Location;
 import com.architecture.hexagonal.coffeeshop.coffeeshopapplication.domain.enums.Milk;
 import com.architecture.hexagonal.coffeeshop.coffeeshopapplication.domain.enums.Size;
+import com.architecture.hexagonal.coffeeshop.coffeeshopapplication.domain.order.LineItem;
+import com.architecture.hexagonal.coffeeshop.coffeeshopapplication.domain.order.Order;
 import java.math.BigDecimal;
 import java.util.List;
 import java.util.stream.Stream;

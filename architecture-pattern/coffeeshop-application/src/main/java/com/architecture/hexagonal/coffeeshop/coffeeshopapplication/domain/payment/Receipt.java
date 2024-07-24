@@ -1,4 +1,4 @@
-package com.architecture.hexagonal.coffeeshop.coffeeshopapplication.domain;
+package com.architecture.hexagonal.coffeeshop.coffeeshopapplication.domain.payment;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

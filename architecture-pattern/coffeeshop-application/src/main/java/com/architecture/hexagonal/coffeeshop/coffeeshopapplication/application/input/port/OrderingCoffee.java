@@ -1,17 +1,24 @@
 package com.architecture.hexagonal.coffeeshop.coffeeshopapplication.application.input.port;
 
-import com.architecture.hexagonal.coffeeshop.coffeeshopapplication.domain.CreditCard;
-import com.architecture.hexagonal.coffeeshop.coffeeshopapplication.domain.Order;
-import com.architecture.hexagonal.coffeeshop.coffeeshopapplication.domain.Payment;
-import com.architecture.hexagonal.coffeeshop.coffeeshopapplication.domain.Receipt;
+import com.architecture.hexagonal.coffeeshop.coffeeshopapplication.domain.payment.CreditCard;
+import com.architecture.hexagonal.coffeeshop.coffeeshopapplication.domain.order.Order;
+import com.architecture.hexagonal.coffeeshop.coffeeshopapplication.domain.payment.Payment;
+import com.architecture.hexagonal.coffeeshop.coffeeshopapplication.domain.payment.Receipt;
 import java.util.UUID;
+import reactor.core.publisher.Mono;
 
 public interface OrderingCoffee {
-  Order placeOrder(Order order);
-  Order updateOrder(UUID orderId, Order order);
-  void cancelOrder(UUID orderId);
-  Payment payOrder(UUID orderId, CreditCard creditCard);
-  Receipt readReceipt(UUID orderId);
-  Order takeOrder(UUID orderId);
+
+  Mono<Order> placeOrder(Order order);
+
+  Mono<Order> updateOrder(UUID orderId, Order order);
+
+  Mono<Void> cancelOrder(UUID orderId);
+
+  Mono<Payment> payOrder(UUID orderId, CreditCard creditCard);
+
+  Mono<Receipt> readReceipt(UUID orderId);
+
+  Mono<Order> takeOrder(UUID orderId);
 
 }
