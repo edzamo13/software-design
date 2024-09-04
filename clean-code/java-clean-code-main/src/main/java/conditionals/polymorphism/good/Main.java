@@ -13,5 +13,6 @@ public class Main {
 
     static double calculatePrice(Product product){
 
+      return 0;
     }
 }
